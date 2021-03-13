@@ -1,0 +1,16 @@
+{
+    "include": ["src/**/*"],
+    "exclude": ["**/node_modules/**/*"],
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "module": "es6",
+        "moduleResolution": "node",
+        "target": "es5",
+        "lib": ["DOM", "ES2020"],
+        "downlevelIteration": true,
+        "strict": true,
+        "declaration": true,
+        "declarationDir": "dist"
+    }
+}
